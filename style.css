@@ -263,7 +263,7 @@ header {
     align-items: center;
     background-color: var(--white-card);
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     gap: 0.625rem;
     border-radius: 1.25rem;
 }
