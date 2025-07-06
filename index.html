@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Vexon Software</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-code"></i> Vexon Software</a>
+
+            <ul class="desktop-menu">
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#benefits">Benefícios</a></li>
+                <li><a href="#vision">Nossa Visão</a></li>
+            </ul>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="mobile-menu">
+                <ul>
+                    <li><a href="#about">Quem Somos</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#vision">Nossa Visão</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-overlay"></div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="home">
+            <div class="background-shape"></div>
+            <div id="call-to-action" class="animate-element">
+                <h1 class="main-title">Transforme Seu Negócio</h1>
+                <div id="action-buttons">
+                    <a href="#benefits" class="primary-btn">Ver Benefícios</a>
+                    <a href="tel:+5511999999999" id="phone-btn"><button class="primary-btn">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (88) 99999-9999
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div id="hero-image">
+                <i class="fa-solid fa-laptop-code" style="font-size: 10rem; color: var(--blue-6);"></i>
+            </div>
+        </section>
+
+        <section id="about" class="animate-element">
+            <h2 class="section-title">Quem Somos</h2>
+            <h3 class="section-subtitle">Vexon Software - Tecnologia Simples e Eficiente</h3>
+            <div class="section-content">
+                <p>Somos uma empresa dedicada a desenvolver soluções digitais acessíveis e personalizadas para pequenos
+                    negócios e freelancers. Nosso compromisso é criar sistemas que realmente funcionam e ajudam você a
+                    crescer.</p>
+                <i class="fa-solid fa-users" style="font-size: 8rem; color: var(--blue-6);"></i>
+            </div>
+        </section>
+
+        <section id="benefits" class="animate-element">
+            <h2 class="section-title">Benefícios da Assinatura</h2>
+            <h3 class="section-subtitle">Por que escolher a Vexon Software?</h3>
+            <div id="menu-items">
+                <div class="menu-item-card">
+                    <div class="favorite-badge">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <i class="fa-solid fa-headset" style="font-size: 5rem; color: var(--blue-6);"></i>
+                    <h3 class="dish-name">Suporte Prioritário</h3>
+                    <span class="dish-description">Atendimento rápido e personalizado para clientes assinantes.</span>
+                </div>
+
+                <div class="menu-item-card">
+                    <div class="favorite-badge">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <i class="fa-solid fa-arrows-rotate" style="font-size: 5rem; color: var(--blue-6);"></i>
+                    <h3 class="dish-name">Atualizações Contínuas</h3>
+                    <span class="dish-description">Seu sistema sempre atualizado com as últimas melhorias e
+                        novidades.</span>
+                </div>
+
+                <div class="menu-item-card">
+                    <div class="favorite-badge">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <i class="fa-solid fa-sliders" style="font-size: 5rem; color: var(--blue-6);"></i>
+                    <h3 class="dish-name">Personalização</h3>
+                    <span class="dish-description">Adapte o sistema conforme a necessidade do seu negócio.</span>
+                </div>
+
+                <div class="menu-item-card">
+                    <div class="favorite-badge">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <i class="fa-solid fa-shield-halved" style="font-size: 5rem; color: var(--blue-6);"></i>
+                    <h3 class="dish-name">Segurança Garantida</h3>
+                    <span class="dish-description">Proteção de dados e estabilidade para sua operação diária.</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="animate-element">
+            <h2 class="section-title">Nossa Visão</h2>
+            <h3 class="section-subtitle">Conectando Pessoas e Negócios com Tecnologia</h3>
+            <div class="section-content">
+                <p>Queremos democratizar o acesso à tecnologia de qualidade, permitindo que qualquer pequeno negócio
+                    tenha as mesmas ferramentas de gestão e crescimento que grandes empresas. Com simplicidade,
+                    segurança e
+                    eficiência, ajudamos você a evoluir.</p>
+                <i class="fa-solid fa-globe" style="font-size: 8rem; color: var(--blue-6);"></i>
+            </div>
+        </section>
+
+        <button id="btnTop"><i class="fa-solid fa-arrow-up"></i></button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
