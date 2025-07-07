@@ -33,6 +33,11 @@
     #cadastro {
         width: 100%;
     }
+
+    #call-to-action .main-title {
+        font-size: 2rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -43,6 +48,10 @@
     .menu-button {
         display: flex;
     }
+
+    #call-to-action .main-title {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width: 769px) {
@@ -52,6 +61,10 @@
 
     .menu-overlay {
         display: none;
+    }
+
+    #call-to-action .main-title {
+        font-size: 3rem;
     }
 }
 
@@ -93,5 +106,13 @@
 
     #chef-image {
         width: 31.25rem;
+    }
+
+}
+
+@media screen and (min-width:1185px) {
+
+    #call-to-action .main-title {
+        font-size: 4rem;
     }
 }

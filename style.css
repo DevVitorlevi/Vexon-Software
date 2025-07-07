@@ -233,16 +233,17 @@ header {
 }
 
 #call-to-action {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.25rem;
+    gap: 1.5rem;
+
 }
 
 #call-to-action .main-title {
-    font-size: 2.75rem;
+    font-size: 7.75rem;
     color: var(--text-primary);
 }
 
