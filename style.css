@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 
-
+    i {
+        z-index: 99999;
+    }
 }
 
 .fa-bars,
@@ -272,12 +274,10 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 80vw;
+    width: 70vw;
 }
 
-#hero-image img {
-    height: 60%;
-    width: fit-content;
+#hero-image i {
     z-index: 2222;
 }
 
